@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-15T17:03:53.549Z",
+        "line": 5,
+        "name": "To validate payment process",
+        "description": "",
+        "id": "end-to-end-payment-process-using-creadit-card;to-validate-payment-process",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9618595600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opened Browser",
+            "match": {
+              "location": "Midtrans.STEPDEFS.STEPDEFS.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5073403800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on home page",
+            "match": {
+              "location": "Midtrans.STEPDEFS.STEPDEFS.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3807057800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User buy pillow",
+            "match": {
+              "location": "Midtrans.STEPDEFS.STEPDEFS.user_buy_pillow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7332509500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Successful payment done",
+            "match": {
+              "location": "Midtrans.STEPDEFS.STEPDEFS.successful_payment_done()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PaymentTracking"
+          },
+          {
+            "name": "@Ui"
+          }
+        ]
+      }
+    ],
+    "name": "End to end payment process using creadit card",
+    "description": "",
+    "id": "end-to-end-payment-process-using-creadit-card",
+    "keyword": "Feature",
+    "uri": "classpath:Resources/Midtrans.feature",
+    "tags": [
+      {
+        "name": "@PaymentTracking",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
